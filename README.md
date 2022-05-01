@@ -1,5 +1,6 @@
 ### Portfolio page
 
+Front-end developer
 Chapsaldduk's React Portfolio Page
 
 ### Contacts
