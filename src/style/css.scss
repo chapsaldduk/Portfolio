@@ -1,17 +1,20 @@
+* {
+  margin: 0;
+  border: 0;
+  scroll-behavior: smooth;
+}
 .section_one {
   width: 100%;
   height: 100vh;
   background-color: gray;
 }
-a {
-  color: white;
-  text-decoration: none;
-}
+a,
 a:link,
 a:visited,
 a:active {
-  text-decoration: none;
   color: white;
+  cursor: pointer;
+  text-decoration: none;
 }
 .profile_image {
   width: 250px;
@@ -21,7 +24,6 @@ a:active {
   overflow: hidden;
   background-size: cover;
 }
-
 .content {
   width: 100%;
   position: relative;
@@ -47,7 +49,7 @@ a:active {
 }
 .scrollbar {
   position: fixed;
-  right: 3%;
+  right: 2%;
   top: 50%;
   transform: translateY(-50%);
   ul {
@@ -59,5 +61,22 @@ a:active {
 .section_two {
   width: 100%;
   height: 100vh;
-  background-color: gray;
+  background-color: #666666;
+}
+.footer {
+  width: 100%;
+  min-height: 30vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.start_button {
+  margin-top: 8vh;
+  font-size: 3vh;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  cursor: pointer;
+  // border: 1px solid black;
+  width: 45%;
+  min-height: 5vh;
 }

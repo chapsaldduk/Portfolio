@@ -4,13 +4,13 @@ const ScrollBar = () => {
   return (
     <div class="scrollbar">
       <ul>
-        <a href="">
+        <a href="#One">
           <li></li>
         </a>
-        <a href="">
+        <a href="#Two">
           <li></li>
         </a>
-        <a href="">
+        <a href="#Footer">
           <li></li>
         </a>
       </ul>
