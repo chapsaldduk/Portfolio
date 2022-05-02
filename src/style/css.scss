@@ -1,0 +1,63 @@
+.section_one {
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+.profile_image {
+  width: 250px;
+  height: 250px;
+  border-radius: 70%;
+  margin: 3vh;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.content {
+  width: 100%;
+  position: relative;
+  margin-top: 5vh;
+  color: white;
+}
+.mainFlexBox {
+  flex: left;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 50vh;
+  min-height: 60vh;
+}
+.navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 4vh;
+  border-bottom: 1px solid black;
+}
+.scrollbar {
+  position: fixed;
+  right: 3%;
+  top: 50%;
+  transform: translateY(-50%);
+  ul {
+    li {
+      margin-bottom: 5vh;
+    }
+  }
+}
+.section_two {
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+}
